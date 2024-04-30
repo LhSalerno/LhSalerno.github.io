@@ -45,6 +45,20 @@
     padding: 50px;
 }
 
+/* Destaques */
+.highlight {
+    color: #548689; /* Cor principal para destaque */
+    font-weight: bold;
+}
+
+/* Estilos para a descrição */
+.description {
+    max-width: 75%; /* Largura máxima para a descrição */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
+}
+
+
 /*Bio container*/
 
 #bio-container h2 {
@@ -105,7 +119,7 @@
 
 /*abolt container*/
 
-#namec{
+#name {
     font-size: 42px;
     margin-bottom: 15px;
 }
@@ -195,6 +209,11 @@
         border-bottom: 5px solid var(--bio-border-color);
     }
 
+    #bio-img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     #bio-container h2 {
         display: none;
     }
@@ -207,6 +226,10 @@
     #about-container {
         text-align: center;
         padding: 30px;
+    }
+
+    #name  {
+        display: none;
     }
 
     #about-container .description {
